@@ -127,8 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-/.idea/django-recipe-api.iml
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/inspectionProfiles/profiles_settings.xml
-/.idea/vcs.xml
+
+# jetbrains
+.idea/
