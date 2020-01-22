@@ -33,7 +33,6 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
-    'recipes.apps.RecipesConfig',
     'core.apps.CoreConfig',
     'user.apps.UserConfig',
     'django.contrib.admin',
