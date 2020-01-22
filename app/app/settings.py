@@ -31,14 +31,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
+    'rest_framework.authtoken',
+    'recipes.apps.RecipesConfig',
     'core.apps.CoreConfig',
+    'user.apps.UserConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'recipes.apps.RecipesConfig'
+    'django.contrib.staticfiles'
 ]
 
 MIDDLEWARE = [
